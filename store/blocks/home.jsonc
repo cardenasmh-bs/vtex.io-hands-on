@@ -1,5 +1,8 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "flex-layout.row#promesas-de-valor",
+            "flex-layout.row#categorias"
+        ]
     }
 }

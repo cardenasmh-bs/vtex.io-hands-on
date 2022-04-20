@@ -1,0 +1,196 @@
+{
+    "flex-layout.row#categorias": {
+        "children": [
+            "flex-layout.col#title-categoria",
+            "flex-layout.col#categoria-1",
+            "flex-layout.col#categoria-2",
+            "flex-layout.col#categoria-3",
+            "flex-layout.col#categoria-4",
+            "flex-layout.col#categoria-5",
+            "flex-layout.col#categoria-1",
+            "flex-layout.col#categoria-2",
+            "flex-layout.col#categoria-3"
+        ]
+    },
+    "flex-layout.col#title-categoria": {
+        "children": [
+            "rich-text#title-categoria",
+            "rich-text#ver-todas-categorias"
+        ]
+    },
+    "rich-text#title-categoria": {
+        "props": {
+            "title": "Título Categorías",
+            "blockClass": [
+                "title-categoria"
+            ],
+            "font": "t-body",
+            "text": "¿QUÉ ESTÁS BUSCANDO?",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#ver-todas-categorias": {
+        "props": {
+            "blockClass": [
+                "ver-todas-categorias"
+            ],
+            "font": "t-body",
+            "text": "[VER TODO](#)",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#categoria-1": {
+        "children": [
+            "image#categoria-1",
+            "rich-text#categoria-1"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "image#categoria-1": {
+        "props": {
+            "blockClass": [
+                "categoria"
+            ],
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#categoria-1": {
+        "props": {
+            "title": "Categoría 1",
+            "blockClass": [
+                "categoria"
+            ],
+            "font": "t-body",
+            "text": "Cuidado Capilar",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#categoria-2": {
+        "children": [
+            "image#categoria-2",
+            "rich-text#categoria-2"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "image#categoria-2": {
+        "props": {
+            "blockClass": [
+                "categoria"
+            ],
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#categoria-2": {
+        "props": {
+            "title": "Categoría 2",
+            "blockClass": [
+                "categoria"
+            ],
+            "font": "t-body",
+            "text": "Cuidado Corporal",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#categoria-3": {
+        "children": [
+            "image#categoria-3",
+            "rich-text#categoria-3"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "image#categoria-3": {
+        "props": {
+            "blockClass": [
+                "categoria"
+            ],
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#categoria-3": {
+        "props": {
+            "title": "Categoría 3",
+            "blockClass": [
+                "categoria"
+            ],
+            "font": "t-body",
+            "text": "Cuidado Facial",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#categoria-4": {
+        "children": [
+            "image#categoria-4",
+            "rich-text#categoria-4"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "image#categoria-4": {
+        "props": {
+            "blockClass": [
+                "categoria"
+            ],
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#categoria-4": {
+        "props": {
+            "title": "Categoría 4",
+            "blockClass": [
+                "categoria"
+            ],
+            "font": "t-body",
+            "text": "Maquillaje",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#categoria-5": {
+        "children": [
+            "image#categoria-5",
+            "rich-text#categoria-5"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "image#categoria-5": {
+        "props": {
+            "blockClass": [
+                "categoria"
+            ],
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#categoria-5": {
+        "props": {
+            "title": "Categoría 5",
+            "blockClass": [
+                "categoria"
+            ],
+            "font": "t-body",
+            "text": "Cuidado Bebé",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base",
+            "textPosition": "CENTER"
+        }
+    }
+}
