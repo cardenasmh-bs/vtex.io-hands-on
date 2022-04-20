@@ -1,0 +1,33 @@
+{
+	"flex-layout.row#valores-blacksip": {
+		"children": [
+			"flex-layout.col#valores-blacksip"
+		]
+	},
+	"flex-layout.col#valores-blacksip": {
+		"children": [
+			"rich-text#nuestros-valores",
+			"rich-text#valores"
+		]
+	},
+	"rich-text#nuestros-valores": {
+		"props": {
+			"title": "Título Nuestros Valores",
+			"blockClass": [
+				"nuestros-valores"
+			],
+			"font": "t-body",
+			"text": "# Nuestros Valores"
+		}
+	},
+	"rich-text#valores": {
+		"props": {
+			"title": "Nuestros Valores",
+			"blockClass": [
+				"valores"
+			],
+			"font": "t-body",
+			"text": "- Perseguimos el WOW de nuestros clientes\n- Perseguimos el aprendizaje y el crecimiento\n- Somos apasionados y disciplinados\n- Somos un equipo\n- Somos orientados a resultados"
+		}
+	}
+}
