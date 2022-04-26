@@ -1,0 +1,26 @@
+{
+    "slider-layout#promesas": {
+        "children": [
+            "flex-layout.row#promesa-1",
+            "flex-layout.row#promesa-2",
+            "flex-layout.row#promesa-3",
+            "flex-layout.row#promesa-4",
+            "flex-layout.row#promesa-5"
+        ],
+        "props": {
+            "title": "Slider Promesas de Valor",
+            "blockClass": "promesas",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "centerMode": {
+                "desktop": "disabled",
+                "mobile": "to-the-left"
+            }
+        }
+    }
+}

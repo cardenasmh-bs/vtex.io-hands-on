@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#promesa-3": {
+        "children": [
+            "image#promesa-3",
+            "rich-text#promesa-3"
+        ]
+    },
+    "image#promesa-3": {
+        "props": {
+            "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+        }
+    },
+    "rich-text#promesa-3": {
+        "props": {
+            "title": "Promesa 3",
+            "text": "Mejores precios **y ofertas**"
+        }
+    }
+}

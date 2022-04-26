@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#promesa-4": {
+        "children": [
+            "image#promesa-4",
+            "rich-text#promesa-4"
+        ]
+    },
+    "image#promesa-4": {
+        "props": {
+            "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+        }
+    },
+    "rich-text#promesa-4": {
+        "props": {
+            "title": "Promesa 4",
+            "text": "**Seguimiento** de tus pedidos"
+        }
+    }
+}
