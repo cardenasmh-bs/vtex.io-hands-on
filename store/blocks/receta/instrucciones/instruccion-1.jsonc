@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#instruccion-1": {
+        "children": [
+            "image#instruccion-1",
+            "rich-text#instruccion-1"
+        ],
+        "props": {
+            "title": "Instrucción 1",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#instruccion-1": {
+        "props": {
+            "blockClass": [
+                "instruccion"
+            ],
+            "src": "https://i.imgur.com/RWj3DiZ.png"
+        }
+    },
+    "rich-text#instruccion-1": {
+        "props": {
+            "title": "Texto Instrucción 1",
+            "blockClass": [
+                "instruccion"
+            ],
+            "font": "t-body",
+            "text": "60 minutos",
+            "textColor": "c-on-base"
+        }
+    }
+}

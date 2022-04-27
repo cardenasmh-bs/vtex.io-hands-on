@@ -1,5 +1,11 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "responsive-layout.desktop#imagen-receta",
+            "responsive-layout.mobile#imagen-receta",
+            "flex-layout.row#descripcion-receta",
+            "responsive-layout.desktop#instrucciones-receta",
+            "responsive-layout.mobile#instrucciones-receta"
+        ]
     }
 }

@@ -1,0 +1,75 @@
+{
+	"responsive-layout.desktop#instrucciones-receta": {
+		"children": ["flex-layout.row#intrucciones-receta-desktop"]
+	},
+	"flex-layout.row#intrucciones-receta-desktop": {
+		"children": [
+			"flex-layout.col#instrucciones-1-desktop",
+			"flex-layout.col#instrucciones-2-desktop",
+			"flex-layout.col#instrucciones-3-desktop"
+		],
+		"props": {
+			"title": "Instrucciones Desktop"
+		}
+	},
+	"flex-layout.col#instrucciones-1-desktop": {
+		"children": [
+			"flex-layout.row#instruccion-1",
+			"flex-layout.row#instruccion-4"
+		],
+		"props": {
+			"title": "Instrucciones Desktop COL"
+		}
+	},
+	"flex-layout.col#instrucciones-2-desktop": {
+		"children": [
+			"flex-layout.row#instruccion-2",
+			"flex-layout.row#instruccion-5"
+		],
+		"props": {
+			"title": "Instrucciones Desktop COL"
+		}
+	},
+	"flex-layout.col#instrucciones-3-desktop": {
+		"children": [
+			"flex-layout.row#instruccion-3",
+			"flex-layout.row#instruccion-6"
+		],
+		"props": {
+			"title": "Instrucciones Desktop COL"
+		}
+	},
+	"responsive-layout.mobile#instrucciones-receta": {
+		"children": ["flex-layout.row#intrucciones-receta-mobile"]
+	},
+	"flex-layout.row#intrucciones-receta-mobile": {
+		"children": [
+			"flex-layout.col#instrucciones-1-mobile",
+			"flex-layout.col#instrucciones-2-mobile"
+		],
+		"props": {
+			"title": "Instrucciones Mobile",
+			"preserveLayoutOnMobile": true
+		}
+	},
+	"flex-layout.col#instrucciones-1-mobile": {
+		"children": [
+			"flex-layout.row#instruccion-1",
+			"flex-layout.row#instruccion-3",
+			"flex-layout.row#instruccion-5"
+		],
+		"props": {
+			"title": "Instrucciones Mobile COL"
+		}
+	},
+	"flex-layout.col#instrucciones-2-mobile": {
+		"children": [
+			"flex-layout.row#instruccion-2",
+			"flex-layout.row#instruccion-4",
+			"flex-layout.row#instruccion-6"
+		],
+		"props": {
+			"title": "Instrucciones Mobile COL"
+		}
+	}
+}

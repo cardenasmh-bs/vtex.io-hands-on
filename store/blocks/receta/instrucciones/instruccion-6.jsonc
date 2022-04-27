@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#instruccion-6": {
+        "children": [
+            "image#instruccion-6",
+            "rich-text#instruccion-6"
+        ],
+        "props": {
+            "title": "Instrucción 6",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#instruccion-6": {
+        "props": {
+            "blockClass": "instruccion",
+            "src": "https://i.imgur.com/IhKo5Rc.png"
+        }
+    },
+    "rich-text#instruccion-6": {
+        "props": {
+            "title": "Texto Instrucción 6",
+            "blockClass": "instruccion",
+            "font": "t-body",
+            "text": "País: Perú",
+            "textColor": "c-on-base"
+        }
+    }
+}

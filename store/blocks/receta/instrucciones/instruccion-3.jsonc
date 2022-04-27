@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#instruccion-3": {
+        "children": [
+            "image#instruccion-3",
+            "rich-text#instruccion-3"
+        ],
+        "props": {
+            "title": "Instrucción 1",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "image#instruccion-3": {
+        "props": {
+            "blockClass": "instruccion",
+            "src": "https://i.imgur.com/EvjGjXS.png"
+        }
+    },
+    "rich-text#instruccion-3": {
+        "props": {
+            "title": "Texto Instrucción 1",
+            "blockClass": "instruccion",
+            "font": "t-body",
+            "text": "Nivel: principiante",
+            "textColor": "c-on-base"
+        }
+    }
+}
