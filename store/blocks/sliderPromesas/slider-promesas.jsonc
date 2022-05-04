@@ -1,5 +1,6 @@
 {
     "slider-layout#promesas": {
+        "title": "Slider Promesas de Valor",
         "children": [
             "flex-layout.row#promesa-1",
             "flex-layout.row#promesa-2",
@@ -8,7 +9,6 @@
             "flex-layout.row#promesa-5"
         ],
         "props": {
-            "title": "Slider Promesas de Valor",
             "blockClass": "promesas",
             "itemsPerPage": {
                 "desktop": 5,

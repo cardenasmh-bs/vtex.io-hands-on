@@ -1,18 +1,20 @@
 {
     "flex-layout.row#promesa-5": {
+        "title": "Promesa 5",
         "children": [
             "image#promesa-1",
             "rich-text#promesa-1"
         ]
     },
     "image#promesa-5": {
+        "title": "Imagen Promesa 5",
         "props": {
             "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
         }
     },
     "rich-text#promesa-5": {
+        "title": "Texto Promesa 5",
         "props": {
-            "title": "Promesa 5",
             "text": "Pago **online y contra entrega**"
         }
     }

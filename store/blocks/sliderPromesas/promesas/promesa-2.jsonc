@@ -1,18 +1,20 @@
 {
     "flex-layout.row#promesa-2": {
+        "title": "Promesa 2",
         "children": [
             "image#promesa-2",
             "rich-text#promesa-2"
         ]
     },
     "image#promesa-2": {
+        "title": "Imagen Promesa 2",
         "props": {
             "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
         }
     },
     "rich-text#promesa-2": {
+        "title": "Texto Promesa 2",
         "props": {
-            "title": "Promesa 2",
             "text": "Compra **fácil y segura**"
         }
     }
