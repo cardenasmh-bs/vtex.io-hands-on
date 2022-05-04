@@ -1,15 +1,16 @@
 {
     "flex-layout.row#instruccion-1": {
+        "title": "Instrucción 1",
         "children": [
             "image#instruccion-1",
             "rich-text#instruccion-1"
         ],
         "props": {
-            "title": "Instrucción 1",
             "preserveLayoutOnMobile": true
         }
     },
     "image#instruccion-1": {
+        "title": "Imagen Instrucción 1",
         "props": {
             "blockClass": [
                 "instruccion"
@@ -18,8 +19,8 @@
         }
     },
     "rich-text#instruccion-1": {
+        "title": "Texto Instrucción 1",
         "props": {
-            "title": "Texto Instrucción 1",
             "blockClass": [
                 "instruccion"
             ],

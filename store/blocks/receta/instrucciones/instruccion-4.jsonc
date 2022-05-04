@@ -1,23 +1,24 @@
 {
     "flex-layout.row#instruccion-4": {
+        "title": "Instrucción 4",
         "children": [
             "image#instruccion-4",
             "rich-text#instruccion-4"
         ],
         "props": {
-            "title": "Instrucción 4",
             "preserveLayoutOnMobile": true
         }
     },
     "image#instruccion-4": {
+        "title": "Imagen Instrucción 4",
         "props": {
             "blockClass": "instruccion",
             "src": "https://i.imgur.com/9V8uyXo.png"
         }
     },
     "rich-text#instruccion-4": {
+        "title": "Texto Instrucción 4",
         "props": {
-            "title": "Instrucción 4",
             "blockClass": "instruccion",
             "font": "t-body",
             "text": "4 a 6 comensales",

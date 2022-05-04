@@ -1,0 +1,31 @@
+{
+	"responsive-layout.desktop#instrucciones-receta": {
+		"children": ["flex-layout.row#intrucciones-receta-desktop"]
+	},
+	"flex-layout.row#intrucciones-receta-desktop": {
+		"title": "Instrucciones Desktop",
+		"children": [
+			"flex-layout.col#instrucciones-1-desktop",
+			"flex-layout.col#instrucciones-2-desktop",
+			"flex-layout.col#instrucciones-3-desktop"
+		]
+	},
+	"flex-layout.col#instrucciones-1-desktop": {
+		"children": [
+			"flex-layout.row#instruccion-1",
+			"flex-layout.row#instruccion-4"
+		]
+	},
+	"flex-layout.col#instrucciones-2-desktop": {
+		"children": [
+			"flex-layout.row#instruccion-2",
+			"flex-layout.row#instruccion-5"
+		]
+	},
+	"flex-layout.col#instrucciones-3-desktop": {
+		"children": [
+			"flex-layout.row#instruccion-3",
+			"flex-layout.row#instruccion-6"
+		]
+	}
+}

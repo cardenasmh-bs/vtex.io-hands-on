@@ -1,11 +1,9 @@
 {
 	"flex-layout.row#descripcion-receta": {
+		"title": "Texto receta",
 		"children": [
 			"flex-layout.col#descripcion-receta"
-		],
-		"props": {
-			"title": "Descripción receta"
-		}
+		]
 	},
 	"flex-layout.col#descripcion-receta": {
 		"children": [
@@ -14,8 +12,8 @@
 		]
 	},
 	"rich-text#titulo-receta": {
+		"title": "Título receta",
 		"props": {
-			"title": "Título receta",
 			"blockClass": [
 				"titulo-receta"
 			],
@@ -25,8 +23,8 @@
 		}
 	},
 	"rich-text#descripcion-receta": {
+		"title": "Descripción receta",
 		"props": {
-			"title": "Descripción receta",
 			"blockClass": [
 				"descripcion-receta"
 			],

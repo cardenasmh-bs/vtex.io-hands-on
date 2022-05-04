@@ -1,0 +1,16 @@
+{
+    "responsive-layout.mobile#imagen-receta": {
+        "children": [
+            "image#receta-mobile"
+        ]
+    },
+    "image#receta-mobile": {
+        "title": "Imagen Receta Mobile",
+        "props": {
+            "blockClass": [
+                "receta-mobile"
+            ],
+            "src": "https://i.imgur.com/g4HOOrr.jpeg"
+        }
+    }
+}

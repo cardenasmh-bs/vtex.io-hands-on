@@ -1,0 +1,32 @@
+{
+	"responsive-layout.mobile#instrucciones-receta": {
+		"children": ["flex-layout.row#intrucciones-receta-mobile"]
+	},
+	"flex-layout.row#intrucciones-receta-mobile": {
+		"title": "Instrucciones Mobile",
+		"children": [
+			"flex-layout.col#instrucciones-1-mobile",
+			"flex-layout.col#instrucciones-2-mobile"
+		],
+		"props": {
+			"preserveLayoutOnMobile": true
+		}
+	},
+	"flex-layout.col#instrucciones-1-mobile": {
+		"children": [
+			"flex-layout.row#instruccion-1",
+			"flex-layout.row#instruccion-3",
+			"flex-layout.row#instruccion-5"
+		]
+	},
+	"flex-layout.col#instrucciones-2-mobile": {
+		"children": [
+			"flex-layout.row#instruccion-2",
+			"flex-layout.row#instruccion-4",
+			"flex-layout.row#instruccion-6"
+		],
+		"props": {
+			"title": "Instrucciones Mobile COL"
+		}
+	}
+}
