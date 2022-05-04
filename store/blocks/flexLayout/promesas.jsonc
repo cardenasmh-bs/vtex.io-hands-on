@@ -1,5 +1,6 @@
 {
     "flex-layout.row#promesas-de-valor": {
+        "title": "Promesas",
         "children": [
             "flex-layout.col#promesa-1",
             "flex-layout.col#promesa-2",
@@ -9,6 +10,7 @@
         ]
     },
     "flex-layout.col#promesa-1": {
+        "title": "Promesa 1",
         "children": [
             "flex-layout.row#promesa-1"
         ]
@@ -20,17 +22,19 @@
         ]
     },
     "image#promesa-1": {
+        "title": "Imagen Promesa 1",
         "props": {
             "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
         }
     },
     "rich-text#promesa-1": {
+        "title": "Texto Promesa 1",
         "props": {
-            "title": "Promesa 1",
             "text": "Entregas en **45 min**"
         }
     },
     "flex-layout.col#promesa-2": {
+        "title": "Promesa 2",
         "children": [
             "flex-layout.row#promesa-2"
         ]
@@ -42,17 +46,19 @@
         ]
     },
     "image#promesa-2": {
+        "title": "Imagen Promesa 2",
         "props": {
             "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
         }
     },
     "rich-text#promesa-2": {
+        "title": "Texto Promesa 2",
         "props": {
-            "title": "Promesa 2",
             "text": "Compra **fácil y segura**"
         }
     },
     "flex-layout.col#promesa-3": {
+        "title": "Promesa 3",
         "children": [
             "flex-layout.row#promesa-3"
         ]
@@ -64,17 +70,19 @@
         ]
     },
     "image#promesa-3": {
+        "title": "Imagen Promesa 3",
         "props": {
             "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
         }
     },
     "rich-text#promesa-3": {
+        "title": "Texto Promesa 3",
         "props": {
-            "title": "Promesa 3",
             "text": "Mejores precios **y ofertas**"
         }
     },
     "flex-layout.col#promesa-4": {
+        "title": "Promesa 4",
         "children": [
             "flex-layout.row#promesa-4"
         ]
@@ -86,17 +94,19 @@
         ]
     },
     "image#promesa-4": {
+        "title": "Imagen Promesa 4",
         "props": {
             "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
         }
     },
     "rich-text#promesa-4": {
+        "title": "Texto Promesa 4",
         "props": {
-            "title": "Promesa 4",
             "text": "**Seguimiento** de tus pedidos"
         }
     },
     "flex-layout.col#promesa-5": {
+        "title": "Promesa 5",
         "children": [
             "flex-layout.row#promesa-1"
         ]
@@ -108,13 +118,14 @@
         ]
     },
     "image#promesa-5": {
+        "title": "Promesa 5",
         "props": {
             "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
         }
     },
     "rich-text#promesa-5": {
+        "title": "Texto Promesa 5",
         "props": {
-            "title": "Promesa 5",
             "text": "Pago **online y contra entrega**"
         }
     }

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#categorias": {
+        "title": "Categorías",
         "children": [
             "flex-layout.col#title-categoria",
             "flex-layout.col#categoria-1",
@@ -13,14 +14,15 @@
         ]
     },
     "flex-layout.col#title-categoria": {
+        "title": "Título categorías",
         "children": [
             "rich-text#title-categoria",
             "rich-text#ver-todas-categorias"
         ]
     },
     "rich-text#title-categoria": {
+        "title": "Título Categorías",
         "props": {
-            "title": "Título Categorías",
             "blockClass": [
                 "title-categoria"
             ],
@@ -32,6 +34,7 @@
         }
     },
     "rich-text#ver-todas-categorias": {
+        "title": "Ver todas",
         "props": {
             "blockClass": [
                 "ver-todas-categorias"
@@ -44,6 +47,7 @@
         }
     },
     "flex-layout.col#categoria-1": {
+        "title": "Categoría 1",
         "children": [
             "image#categoria-1",
             "rich-text#categoria-1"
@@ -53,6 +57,7 @@
         }
     },
     "image#categoria-1": {
+        "title": "Imagen Categoría 1",
         "props": {
             "blockClass": [
                 "categoria"
@@ -62,7 +67,7 @@
     },
     "rich-text#categoria-1": {
         "props": {
-            "title": "Categoría 1",
+            "title": "Texto Categoría 1",
             "blockClass": [
                 "categoria"
             ],
@@ -74,6 +79,7 @@
         }
     },
     "flex-layout.col#categoria-2": {
+        "title": "Categoría 2",
         "children": [
             "image#categoria-2",
             "rich-text#categoria-2"
@@ -83,6 +89,7 @@
         }
     },
     "image#categoria-2": {
+        "title": "Imagen Categoría 2",
         "props": {
             "blockClass": [
                 "categoria"
@@ -91,8 +98,8 @@
         }
     },
     "rich-text#categoria-2": {
+        "title": "Texto Categoría 2",
         "props": {
-            "title": "Categoría 2",
             "blockClass": [
                 "categoria"
             ],
@@ -104,6 +111,7 @@
         }
     },
     "flex-layout.col#categoria-3": {
+        "title": "Categoría 3",
         "children": [
             "image#categoria-3",
             "rich-text#categoria-3"
@@ -113,6 +121,7 @@
         }
     },
     "image#categoria-3": {
+        "title": "Imagen Categoría 1",
         "props": {
             "blockClass": [
                 "categoria"
@@ -121,8 +130,8 @@
         }
     },
     "rich-text#categoria-3": {
+        "title": "texto Categoría 3",
         "props": {
-            "title": "Categoría 3",
             "blockClass": [
                 "categoria"
             ],
@@ -134,6 +143,7 @@
         }
     },
     "flex-layout.col#categoria-4": {
+        "title": "Categoría 4",
         "children": [
             "image#categoria-4",
             "rich-text#categoria-4"
@@ -143,6 +153,7 @@
         }
     },
     "image#categoria-4": {
+        "title": "Imagen Categoría 4",
         "props": {
             "blockClass": [
                 "categoria"
@@ -151,8 +162,8 @@
         }
     },
     "rich-text#categoria-4": {
+        "title": "Text Categoría 4",
         "props": {
-            "title": "Categoría 4",
             "blockClass": [
                 "categoria"
             ],
@@ -164,6 +175,7 @@
         }
     },
     "flex-layout.col#categoria-5": {
+        "title": "Categoría 5",
         "children": [
             "image#categoria-5",
             "rich-text#categoria-5"
@@ -173,6 +185,7 @@
         }
     },
     "image#categoria-5": {
+        "title": "Imagen Categoría 1",
         "props": {
             "blockClass": [
                 "categoria"
@@ -181,8 +194,8 @@
         }
     },
     "rich-text#categoria-5": {
+        "title": "Texto Categoría 5",
         "props": {
-            "title": "Categoría 5",
             "blockClass": [
                 "categoria"
             ],
