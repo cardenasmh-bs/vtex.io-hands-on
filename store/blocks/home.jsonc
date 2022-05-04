@@ -1,5 +1,7 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "list-context.image-list#main-slider"
+        ]
     }
 }

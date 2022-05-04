@@ -1,0 +1,37 @@
+{
+    "list-context.image-list#main-slider": {
+        "title": "Imágenes Slider",
+        "children": ["slider-layout#main-slider"],
+        "props": {
+            "images": [
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "link": {
+                        "url": "/categoria-1"
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "link": {
+                        "url": "/categoria-2"
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "link": {
+                        "url": "/categoria-3"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#main-slider": {
+        "title": "Slider principal",
+        "props": {
+            "itemsPerPage": 1,
+            "autoplay": {
+                "timeout": 3500
+            }
+        }
+    }
+}
