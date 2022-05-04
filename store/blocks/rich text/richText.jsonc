@@ -1,5 +1,6 @@
 {
 	"flex-layout.row#valores-blacksip": {
+		"title": "Row Valores Blacksip",
 		"children": [
 			"flex-layout.col#valores-blacksip"
 		]
@@ -11,8 +12,8 @@
 		]
 	},
 	"rich-text#nuestros-valores": {
+		"title": "Título Nuestros Valores",
 		"props": {
-			"title": "Título Nuestros Valores",
 			"blockClass": [
 				"nuestros-valores"
 			],
@@ -21,8 +22,8 @@
 		}
 	},
 	"rich-text#valores": {
+		"title": "Nuestros Valores",
 		"props": {
-			"title": "Nuestros Valores",
 			"blockClass": [
 				"valores"
 			],
