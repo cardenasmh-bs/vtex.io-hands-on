@@ -1,7 +1,8 @@
 {
     "store.home": {
         "blocks": [
-            "list-context.image-list#main-slider"
+            "list-context.image-list#main-slider",
+            "list-context.image-list#main-slider-with-video"
         ]
     }
 }

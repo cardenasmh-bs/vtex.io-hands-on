@@ -1,7 +1,7 @@
 {
-    "list-context.image-list#main-slider": {
-        "title": "Carrusel",
-        "children": ["slider-layout#main-slider"],
+    "list-context.image-list#main-slider-with-video": {
+        "title": "Carrusel con vídeo",
+        "children": ["slider-layout#main-slider-with-video"],
         "props": {
             "images": [
                 {
@@ -25,13 +25,29 @@
             ]
         }
     },
-    "slider-layout#main-slider": {
-        "title": "Slider principal",
+    "slider-layout#main-slider-with-video": {
+        "title": "Slider principal con vídeo",
+        "children": [
+            "link#main-video-slider"
+        ],
         "props": {
             "itemsPerPage": 1,
             "autoplay": {
                 "timeout": 3500
             }
+        }
+    },
+    "link#main-video-slider": {
+        "title": "Link Vídeo",
+        "props": {
+            "href": "/video-prueba"
+        },
+        "children": ["video#main-slider"]
+    },
+    "video#main-slider": {
+        "title": "Vídeo Slider",
+        "props": {
+            "src": "https://blacksip.com/imgload/Forus-Colombia/videos/under_armour/VIDEO_BRND_GOTG_Charlotte_Attract.mp4"
         }
     }
 }
