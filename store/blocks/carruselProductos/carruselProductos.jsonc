@@ -1,0 +1,17 @@
+{
+    "list-context.product-list#carrusel": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#carrusel-productos"]
+    },
+    "slider-layout#carrusel-productos": {
+        "title": "Slider Productos",
+        "props": {
+            "itemsPerPage": {
+                "(min-width: 1400px)": 6,
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1.5
+            }
+        }
+    }
+}
