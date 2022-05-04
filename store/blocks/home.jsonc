@@ -1,5 +1,5 @@
 {
     "store.home": {
-        "blocks": ["list-context.image-list#demo"]
+        "blocks": ["list-context.image-list#collage"]
     }
 }

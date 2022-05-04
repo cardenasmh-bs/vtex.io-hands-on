@@ -1,6 +1,6 @@
 {
-  "list-context.image-list#demo": {
-    "title": "Contenedor de imagenes",
+  "list-context.image-list#collage": {
+    "title": "Imágenes Collage",
     "props": {
       "blockClass": "listContextImage",
       "images": [
@@ -28,12 +28,11 @@
       ]
     },
     "children": [
-      "list-context-renderer#demo2"
+      "list-context-renderer#collage"
     ]
   },
 
-  "list-context-renderer#demo2": {
-    "title": "Lista renderizada de imagenes",
+  "list-context-renderer#collage": {
     "props": {
       "listElement": "div",
       "itemElement": "div",

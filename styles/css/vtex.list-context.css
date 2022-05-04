@@ -1,0 +1,15 @@
+.item--rendererContextImage {
+    padding: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+    .list--rendererContextImage {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .item--rendererContextImage:nth-child(4n) {
+        display: grid;
+        grid-column: 1/4;
+    }
+}
