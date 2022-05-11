@@ -1,0 +1,48 @@
+{
+    "drawer#size-guide-women": {
+        "title": "Drawer Mujer",
+        "children": ["flex-layout.row#image-size-guide"],
+        "blocks": [
+            "drawer-trigger#size-guide-women",
+            "drawer-header#size-guide-women"
+        ]
+    },
+    "drawer-trigger#size-guide-women": {
+        "title": "Trigger Mujer",
+        "children": [
+            "flex-layout.row#trigger-woman"
+        ]
+    },
+    "flex-layout.row#trigger-woman": {
+        "title": "Trigger Mujer ROW",
+        "children": [
+            "rich-text#women",
+            "drawer-close-button#caret-right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "rich-text#women": {
+        "title": "Texto Mujer",
+        "props": {
+            "blockClass": ["categoria"],
+            "font": "t-body",
+            "text": "MUJER",
+            "textColor": "c-on-base"
+        }
+    },
+    "drawer-header#size-guide-women": {
+        "title": "Encabezado Mujer",
+        "children": [
+            "drawer-close-button#caret-left",
+            "rich-text#size-guide-women"
+        ]
+    },
+    "rich-text#size-guide-women": {
+        "title": "Guía de tallas Mujer",
+        "props": {
+            "text": "GUÍA DE TALLAS MUJER"
+        }
+    }
+}

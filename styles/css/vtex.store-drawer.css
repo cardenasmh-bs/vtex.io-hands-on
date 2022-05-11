@@ -1,0 +1,22 @@
+.closeIcon--caret-left, 
+.closeIcon--caret-right {
+    display: none;
+}
+.closeIconButton--caret-left::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: url(https://i.imgur.com/kQkDqkr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+.closeIconButton--caret-right::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: url(https://i.imgur.com/r1VYUKc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}

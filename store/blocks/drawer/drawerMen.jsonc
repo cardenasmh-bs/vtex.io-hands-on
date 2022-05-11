@@ -1,0 +1,61 @@
+{
+    "drawer#size-guide-men": {
+        "title": "Drawer Hombre",
+        "children": ["flex-layout.row#image-size-guide"],
+        "blocks": [
+            "drawer-trigger#size-guide-men",
+            "drawer-header#size-guide-men"
+        ]
+    },
+    "flex-layout.row#image-size-guide": {
+        "title": "Contenedor Imagen",
+        "children": ["image#size-guide"],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "image#size-guide": {
+        "title": "Imagen Guía de Tallas",
+        "props": {
+            "src": "https://i.imgur.com/HLLiO8N.jpeg"
+        }
+    },
+    "drawer-trigger#size-guide-men": {
+        "title": "Drawer Hombre Trigger",
+        "children": [
+            "flex-layout.row#trigger-men"
+        ]
+    },
+    "flex-layout.row#trigger-men": {
+        "title": "Trigger Hombre ROW",
+        "children": [
+            "rich-text#men",
+            "drawer-close-button#caret-right"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "rich-text#men": {
+        "title": "Categoría Hombre",
+        "props": {
+            "blockClass": ["categoria"],
+            "font": "t-body",
+            "text": "HOMBRE",
+            "textColor": "c-on-base"
+        }
+    },
+    "drawer-header#size-guide-men": {
+        "title": "Encabezado Drawer Hombre",
+        "children": [
+            "drawer-close-button#caret-left",
+            "rich-text#size-guide-men"
+        ]
+    },
+    "rich-text#size-guide-men": {
+        "title": "Texto Guía de tallas Hombre",
+        "props": {
+            "text": "GUÍA DE TALLAS HOMBRE"
+        }
+    }
+}

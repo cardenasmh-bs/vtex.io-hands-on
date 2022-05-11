@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#size-guide": {
+        "title": "Guía de Tallas",
+        "children": ["drawer#size-guide"]
+    },
+    "drawer#size-guide": {
+        "title": "Drawer Guía de Tallas",
+        "children": [
+            "flex-layout.col#size-guide"
+        ],
+        "blocks": [
+            "drawer-trigger#size-guide",
+            "drawer-header#size-guide"
+        ]
+    },
+    "drawer-trigger#size-guide": {
+        "title": "Drawer Trigger Guía de Tallas",
+        "children": ["rich-text#size-guide"]
+    },
+    "rich-text#size-guide": {
+        "title": "Texto Guía de Tallas",
+        "props": {
+            "blockClass": ["drawer-trigger"],
+            "text": "GUÍA DE TALLAS",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    },
+    "drawer-header#size-guide": {
+        "title": "Encabezado principal Guía de Tallas",
+        "children": [
+            "drawer-close-button#caret-left",
+            "rich-text#size-guide"
+        ]
+    },
+    "drawer-close-button#caret-left": {
+        "title": "Drawer Icon Left",
+        "props": {
+            "blockClass": "caret-left"
+        }
+    },
+    "flex-layout.col#size-guide": {
+        "title": "Guía de Tallas COL",
+        "children": [
+            "drawer#size-guide-women",
+            "drawer#size-guide-men"
+        ]
+    },
+    "drawer-close-button#caret-right": {
+        "title": "Drawer Icon Right",
+        "props": {
+            "blockClass": "caret-right"
+        }
+    }
+}
